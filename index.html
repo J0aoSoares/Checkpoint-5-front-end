@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+
+    
+    <title>One Piece</title>
+  </head>
+
+  <body class="d-flex flex-column min-vh-100">
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+
+  <a class="navbar-brand" href="#">
+      <img src="img/caveira.png" alt="Logotipo" width="40">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+      </ul>
+  </div>
+
+    <!-- Menu Hamburguer -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="collapse" data-target="#navbarSupportedContent" href="#"><i class="fas fa-bars"></i></a>
+      </li>
+    </ul>
+</div>
+</nav>
+<!-- Breadcrumb -->
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Notícia</li>
+  </ol>
+
+  <!-- Fazendo o carrossel -->
+<div id="newsCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicadores -->
+  <ol class="carousel-indicators"> 
+      <li data-target="#newsCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#newsCarousel" data-slide-to="1"></li>
+      <li data-target="#newsCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Slides -->
+  <div class="carousel-inner">
+      <div class="carousel-item active">
+          <img src="img/bando.jpg" alt="Equipe" class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block">
+              
+          </div>
+      </div>
+      <div class="carousel-item">
+          <img src="img/bando2.jpe" alt="Notícia 2" class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block">
+              
+          </div>
+      </div>
+      <div class="carousel-item">
+          <img src="img/luffy.jpg" alt="Notícia 3" class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block">
+              
+          </div>
+      </div>
+  </div>
+
+<!-- Controles -->
+<a class="carousel-control-prev" href="#newsCarousel" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="sr-only">Anterior</span>
+</a>
+<a class="carousel-control-next" href="#newsCarousel" role="button" data-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="sr-only">Próximo</span>
+</a>
+</div>
+
+<!-- Section -->
+<section class="container">
+  <article class="row">
+      <!-- textos -->
+      <div class="col-md-8 mt-4">
+          <h2>Sobre</h2>
+          <p>"One Piece" é um anime e mangá de grande sucesso criado por Eiichiro Oda. A história gira em torno de Monkey D. Luffy, um jovem pirata com a ambição de se tornar o Rei dos Piratas, e sua tripulação, os Chapéus de Palha. Juntos, eles embarcam em uma jornada épica em busca do One Piece, o maior tesouro conhecido do mundo.
+
+            O mundo de "One Piece" é vasto e cheio de ilhas, criaturas misteriosas e governantes cruéis. Luffy e seus companheiros enfrentam desafios incríveis, como batalhas contra outros piratas, marinheiros e até mesmo os membros do Governo Mundial. Além disso, eles têm que lidar com a ameaça dos Yonkou, os quatro piratas mais poderosos do mundo.
+            
+            A história de "One Piece" também é repleta de reviravoltas emocionantes e segredos bem guardados. A busca pelo One Piece não é apenas uma busca por riqueza, mas também por conhecimento e justiça. A série explora temas profundos, como amizade, sacrifício, liberdade e a busca pelos próprios sonhos.</p>
+      </div>
+
+
+
+
+      <!-- Imagem -->
+      <div class="col-md-4 mt-4">
+          <img src="img/cover.jpg" alt="Imagem Descrição" class="img-fluid">
+      </div>
+</section>
+<footer class="bg-danger text-white pt-4 mt-5 w-100">
+    <div class="container">
+        <div class="row">
+            <!-- Coluna 1 -->
+            <div class="col-md-3 mb-4">
+                <h5>Links Rápidos</h5>
+                <ul class="list-inline">
+                    <li class="inline-item"><a class= "icons" href="https://pt-br.facebook.com/OnePieceBrasil/"><img class="icons" src="./img/facebook-icon.png" alt=""></a>
+                    <li class="inline-item"><a class= "icons" href="https://www.youtube.com/@onepieceofficial"><img class="icons" src="./img/youtube-icon.png" alt=""></a>
+                    <li class="inline-item"><a class= "icons" href="https://www.instagram.com/onepiece_staff/"><img class="icons" src="./img/instagram-icon.png" alt=""></a>
+                </ul>
+            </div>
+            <!-- Coluna 2 -->
+            <div class="col-md-3 mb-4">
+                <h5>Contato</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">onepiece@contato.com</a></li>
+                    <li><a href="#" class="text-white">2-10-5 Higashi Oizumi, Nerima Yard, Tokyo. Horários: 9hs30 às 17hs.</a></li>
+                </ul>
+            </div>
+            <!-- Coluna 3 -->
+            <div class="col-md-3 mb-4">
+                <h5>Newsletter</h5>
+                <p>Inscreva-se para receber novidades</p>
+                <form>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Digite seu e-mail">
+                    </div>
+                    <button type="submit" class="btn btn-dark">Inscreva-se</button>
+                  </form>
+            </div>
+        </div>
+            <hr class="bg-white mb-2">
+            <div class="row d-flex justify-content-center">
+                <p>2023 - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+  </article>
+</section>
+
+<!-- JavaScript Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</nav>
+  </body>
+</html>

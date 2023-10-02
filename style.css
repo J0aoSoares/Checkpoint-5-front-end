@@ -1,0 +1,13 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('img/triangles_pattern.webp');
+}
+.breadcrumb{background-color: transparent;}
+.img-fluid{border-radius: 20px;}
+footer{
+  width: 100%;
+}
+.icons {
+  padding-top: 0 15;
+  width: 15.75%;
+}
